@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid rgb(184, 175, 160);
+}
+
+#inputs input:focus {
+    outline: none;
+    border: 1px solid rgb(103, 187, 240);
+}
+
+#submit-button {
+    margin-bottom: 45px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid rgb(184, 175, 160);
+}
+
+#submit-button:hover {
+    border: 1px solid rgb(70, 70, 70);
+}
+
+input, #submit-button {
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-header {
+    text-align: left;
+    border-bottom: 1px solid rgb(184, 175, 160);
+}
+
+#table-header th {
+    padding-bottom: 10px;
+}
+
+table #new-book td {
+    padding: 10px 10px 10px 0px;
+    border-bottom: 1px solid rgb(184, 175, 160);
+}
+
+table #new-book button {
+    color: rgb(111, 188, 214);
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.validation-form.success {
+    background-color: green;
+    padding: 8px;
+}
+
+.validation-form.error {
+    background-color: red;
+    padding: 8px;
+}
